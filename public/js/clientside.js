@@ -3,7 +3,6 @@ const input = document.querySelector('input')
 const messageOne = document.querySelector('#message-one')
 const messageTwo = document.querySelector('#message-two')
 
-
 form.addEventListener('submit', (e) => {
     e.preventDefault()
     const location = input.value
