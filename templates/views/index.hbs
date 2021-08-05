@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-256.png">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p class="weather">Get weather based on location!</p>
+        <form >
+          <input type="text" placeholder="Location">
+          <button>Show weather</button>
+          <p id="message-one"></p>
+          <p id="message-two"></p>
+        </form>
+    </div>
+
+    {{>footer}}
+    <script src="./js/clientside.js"></script>
+</body>
+
+</html>

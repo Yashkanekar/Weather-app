@@ -1,0 +1,73 @@
+body {
+    font-family: Arial;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 25px;
+    color: white;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer {
+    border-top: white;
+    margin-top: 20px;
+    border-top: 1px solid lightgrey;
+    font-family: 'Baloo Chettan 2';
+    color: linen;
+    
+}
+
+header h1{
+    font-size: 4em;
+}
+
+
+header a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: red;  
+    margin-right: 18px;  
+}
+
+.my-img{
+    width: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.main-content{
+    flex-grow: 1;    
+}
+
+.weatherstack{
+    color: chartreuse;
+    text-decoration: none;
+}
+.weather{
+     margin-top: 30px;
+}
+
+button{
+    cursor:pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    padding: 8px;
+}
+
+button:hover{
+    color:white;
+    background-color: black;
+}
+
+input{
+    border: 1.5px solid red;
+    padding: 8px;
+    background-color: black;
+    color: white;
+
+
+}
